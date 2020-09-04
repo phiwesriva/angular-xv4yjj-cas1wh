@@ -223,6 +223,13 @@ app-footer {
   transform: translate(-50%, -50%);
 }
 
+#u01 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
 /*Navigation*/
 ul.topnav {
   list-style-type: none;
