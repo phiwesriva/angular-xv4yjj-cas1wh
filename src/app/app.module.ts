@@ -25,7 +25,7 @@ import { CcameosComponent } from './ccameos/ccameos.component';
     NgbModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'tops', component: TopBarComponent },
+      { path: 'tops', component: TopsComponent },
       { path: 'ppolicy', component: PpolicyComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'return', component: ReturnComponent },
@@ -52,7 +52,7 @@ import { CcameosComponent } from './ccameos/ccameos.component';
     DressesComponent,
     NewComponent,
     BottomsComponent,
-    CcameosComponent
+    CcameosComponent,
   ],
   bootstrap: [ AppComponent ]
 })
