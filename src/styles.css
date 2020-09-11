@@ -8,6 +8,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#t01, td {
+  width: 100%;
+  background-color: #f1f1c1;
+  box-shadow: 0 0 2px 1px #d2a719;
+  border-collapse: collapse;
+}
+
+#t02 {
+  width: 100%;
+  background-color: #f1f1c1;
+}
+
+#t03 {
+  width: 100%;
+  background-color: #f1f1c1;
+}
+
+#t04 {
+  width: 100%;
+  background-color: #f1f1c1;
+}
+
 body {
   margin: 0;
 }
