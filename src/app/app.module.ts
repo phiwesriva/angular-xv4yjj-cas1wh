@@ -17,6 +17,7 @@ import { DressesComponent } from './dresses/dresses.component';
 import { NewComponent } from './new/new.component';
 import { BottomsComponent } from './bottoms/bottoms.component';
 import { CcameosComponent } from './ccameos/ccameos.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   imports: [
@@ -53,6 +54,7 @@ import { CcameosComponent } from './ccameos/ccameos.component';
     NewComponent,
     BottomsComponent,
     CcameosComponent,
+    HeaderComponent,
   ],
   bootstrap: [ AppComponent ]
 })
