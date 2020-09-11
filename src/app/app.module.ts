@@ -12,6 +12,11 @@ import { ReturnComponent } from './return/return.component';
 import { TandcComponent } from './tandc/tandc.component';
 import { ShipComponent } from './ship/ship.component';
 import { PpolicyComponent } from './ppolicy/ppolicy.component';
+import { TopsComponent } from './tops/tops.component';
+import { DressesComponent } from './dresses/dresses.component';
+import { NewComponent } from './new/new.component';
+import { BottomsComponent } from './bottoms/bottoms.component';
+import { CcameosComponent } from './ccameos/ccameos.component';
 
 @NgModule({
   imports: [
@@ -20,6 +25,17 @@ import { PpolicyComponent } from './ppolicy/ppolicy.component';
     NgbModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'tops', component: TopBarComponent },
+      { path: 'ppolicy', component: PpolicyComponent },
+      { path: 'contact', component: ContactComponent },
+      { path: 'return', component: ReturnComponent },
+      { path: 'tandc', component: TandcComponent },
+      { path: 'ship', component: ShipComponent },
+      { path: 'new', component: NewComponent },
+      { path: 'bottoms', component: BottomsComponent },
+      { path: 'ccameos', component: CcameosComponent },
+      { path: 'dresses', component: DressesComponent },
+
     ])
   ],
   declarations: [
@@ -31,7 +47,12 @@ import { PpolicyComponent } from './ppolicy/ppolicy.component';
     ReturnComponent,
     TandcComponent,
     ShipComponent,
-    PpolicyComponent
+    PpolicyComponent,
+    TopsComponent,
+    DressesComponent,
+    NewComponent,
+    BottomsComponent,
+    CcameosComponent
   ],
   bootstrap: [ AppComponent ]
 })

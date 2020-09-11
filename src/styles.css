@@ -15,7 +15,7 @@
   border-collapse: collapse;
 }
 
-#t02 {
+#t02, td {
   width: 100%;
   /*background-color: #f1f1c1;*/
 }
