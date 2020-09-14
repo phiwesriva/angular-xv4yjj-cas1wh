@@ -18,6 +18,7 @@ import { NewComponent } from './new/new.component';
 import { BottomsComponent } from './bottoms/bottoms.component';
 import { CcameosComponent } from './ccameos/ccameos.component';
 import { HeaderComponent } from './header/header.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   imports: [
@@ -36,7 +37,7 @@ import { HeaderComponent } from './header/header.component';
       { path: 'bottoms', component: BottomsComponent },
       { path: 'ccameos', component: CcameosComponent },
       { path: 'dresses', component: DressesComponent },
-
+      { path: 'about', component: AboutComponent },
     ])
   ],
   declarations: [
@@ -55,6 +56,7 @@ import { HeaderComponent } from './header/header.component';
     BottomsComponent,
     CcameosComponent,
     HeaderComponent,
+    AboutComponent,
   ],
   bootstrap: [ AppComponent ]
 })
