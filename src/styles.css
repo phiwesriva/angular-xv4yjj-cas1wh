@@ -20,24 +20,26 @@
   /*background-color: #f1f1c1;*/
 }
 
-#t03 {
+#t03, td {
   width: 100%;
-  background-color: #f1f1c1;
+  text-align: center;
+/*  background-color: #f1f1c1;*/
 }
 
-#t04 {
+#t04, td {
   width: 100%;
-  background-color: #f1f1c1;
+  text-align: center;
+  /*background-color: #f1f1c1;*/
 }
 
 body {
   margin: 0;
 }
 
-.container {
+/*.container {
   display: flex;
   flex-direction: row;
-}
+}*/
 
 router-outlet + *  {
   padding: 0 16px;
@@ -81,24 +83,24 @@ a:hover {
 }
 
 
-
+/*
 body, html {
   height: 100%;
 }
 
 .bg {
-  /* The image used */
+  /* The image used 
   background-image: url("img_girl.jpg");
 
-  /* Full height */
+  /* Full height 
   height: 50%;
 
-  /* Center and scale the image nicely */
+  /* Center and scale the image nicely
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+*/
 /* Input */
 
 input {
@@ -171,8 +173,37 @@ app-top-bar h1 {
 }
 
 app-footer {
+  width: 100%;
+height: auto;
+/*background-color: #050505;*/
+/*padding: 1px;*/
+display: flex;
+flex-direction: row;
+/*justify-content: space-between;*/
+align-items: center;
 
 }
+
+.container {
+  position: relative;
+  max-width: 900px; /*Maximum width */ 
+  margin: 0 auto; /* Center it */
+  /*display: flex;*/
+  /*flex-direction: row;*/ 
+  align-items: center;
+
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */
+}
+
 
 /* Checkout Cart, Shipping Prices */
 
